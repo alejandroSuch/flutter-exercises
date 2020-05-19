@@ -4,3 +4,4 @@
 - [Mi Card](./mi_card)
 - [Dicee](./dicee)
 - [Magic 8-ball](./magic_8_ball)
+- [Xylophone](./xylophone)
