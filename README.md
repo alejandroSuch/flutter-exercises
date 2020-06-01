@@ -7,3 +7,4 @@
 - [Xylophone](./xylophone)
 - [Quizzler](./quizzler)
 - [Destini](./destini)
+- [BMI Calculator](./bmi_calculator)
