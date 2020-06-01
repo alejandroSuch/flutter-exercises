@@ -1,15 +1,14 @@
+import 'package:bmi_calculator/constants.dart';
 import 'package:flutter/material.dart';
-
-const textStyle = TextStyle(
-    fontSize: 18.0,
-    color: Color(0xFF8D8E98)
-);
 
 class IconContent extends StatelessWidget {
   final IconData icon;
   final String text;
 
-  IconContent({ @required this.icon, this.text,  });
+  IconContent({
+    @required this.icon,
+    this.text,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +24,7 @@ class IconContent extends StatelessWidget {
         ),
         Text(
           this.text,
-          style: textStyle,
+          style: kLabelTextStyle,
         )
       ],
     );
